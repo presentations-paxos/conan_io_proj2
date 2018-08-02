@@ -13,7 +13,7 @@ class Proj2Conan(ConanFile):
     default_options = "shared=False"
     generators = "cmake"
 
-    requires = "boost_format/1.65.1@bincrafters/stable"
+    requires = "boost_format/[>1.65.1 || 1.65.1]@bincrafters/stable"
 
     def source(self):
         self.run("git clone http://gitlab:8080/demo/proj2.git")
