@@ -1,4 +1,4 @@
-#include <proj1/hello.hpp>
+#include <proj2/goodbye.hpp>
 
 #include <boost/format.hpp>
 #include <sstream>
