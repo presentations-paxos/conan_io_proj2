@@ -1,0 +1,4 @@
+MAKE_LIBRARY(proj2
+	DEPENDENCIES	
+		CONAN_PKG::boost_format
+)
