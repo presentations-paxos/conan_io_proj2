@@ -2,7 +2,7 @@ from conans import ConanFile, CMake
 from conans.errors import ConanException
 
 class Proj2Conan(ConanFile):
-    name = proj2
+    name = "proj2"
     # version = 0.0.1
 
     license = "Public Domain"
